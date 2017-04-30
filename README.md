@@ -1,12 +1,13 @@
 ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)
 
-# WDI Project Sprint Two
+# WDI Project Two
 
 **Build a web-based, CRUD application.**
 
 ## Objectives
 
-1. Build confidence as a developer by building something of your own.
+### Build confidence as a developer by building something of your own.
+
 -  Manage yourself (your time and your emotions) when given a large amount of 
 unstructured work.
 -  Gain experience building a complex application.
@@ -18,6 +19,7 @@ manner.
 
 - A full CRUD app, with create, edit, and delete functionality
 - A functioning database with at least two tables
+- Wireframes & user stories
 
 ## Project Prompts
 

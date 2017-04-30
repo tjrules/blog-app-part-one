@@ -15,7 +15,7 @@ unstructured work.
 manner.
 -  Learn new technologies by reading documentation and experimenting.
 
-## Requirements
+## Deliverables
 
 - A full CRUD app, with create, edit, and delete functionality
 - MVC-style models, views, and controllers
@@ -30,7 +30,7 @@ manner.
     - Any things you plan to fix or features you plan to add
 - Here are a couple of example projects: [Forum](forum.md), [Wiki](wiki.md)
 
-### Technological Requirements
+### Tech Requirements
 
 You will be expected to use the following technologies to implement this project:
 
@@ -38,9 +38,6 @@ You will be expected to use the following technologies to implement this project
 - **Node and Express**: Your app will need to have its own server.
 - **SQL / PG-PROMISE**: Your app will need to persist data and should have at least two database tables.
 - **FETCH**: Your app will need to make an API call from the front-end.
-
-Once you've got the server side MVP established, you should turn some attention to the client side.
-
 - **CSS & Design**: Your app should be pleasing to look at. Your design should take usability into account.
 - **JavaScript & jQuery** Your app should have some interactivity
 

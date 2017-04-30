@@ -28,7 +28,20 @@ manner.
     - The technologies you used and a description of how you used them
     - A code snippet of a part of the app you're particularly proud of
     - Any things you plan to fix or features you plan to add
-- Here are a couple of example project ideas: [Forum](forum), [Wiki](wiki)
+- Here are a couple of example projects: [Forum](forum.md), [Wiki](wiki.md)
+
+### Technological Requirements
+
+You will be expected to use the following technologies to implement this project:
+
+- **HTML / EJS**: Your HTML should be semantic and valid.
+- **Node and Express**: Your app will need to have its own server.
+- **SQL / PG-PROMISE**: Your app will need to persist data.
+
+Once you've got the server side MVP established, you should turn some attention to the client side.
+
+- **CSS & Design**: Your app should be pleasing to look at. Your design should take usability into account.
+- **JavaScript & jQuery** Your app should have some interactivity
 
 ## Process
 

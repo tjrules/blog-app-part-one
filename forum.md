@@ -1,5 +1,3 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project #2: Building Your First Full-stack Application
-
 ## Overview of `Forum.app`
 
 Jake loves discussion amongst his friends, but he wants a way to keep it organized. 
@@ -47,30 +45,3 @@ you mention the app Jake wants made.
 library called [Marked][marked]."
 
 [marked]: https://www.npmjs.com/package/marked
-
-## Implementation
-
-### Technologies
-
-You will be expected to use the following technologies to implement this project:
-
-- **HTML / EJS**
-  Your HTML should be semantic and valid.
-
-- **Node and Express**
-  Your app will need to have its own server.
-
-- **SQL / PG-PROMISE**
-  Your app will need to persist data.
-
-This project is focused on server side scripting and persistence, so that should 
-be your focus. That being said, once you've got the server side MVP established, 
-you should turn some attention to the client side.
-
-- **CSS**
-  Your app should be pleasing to look at. Your design should take usability into 
-  account. E.G. if an element is meant to be clicked, give it the appropriate 
-  cursor, and perhaps have its appearance change slightly.
-
-- **JavaScript & jQuery**
-  Your app should have some interactivity

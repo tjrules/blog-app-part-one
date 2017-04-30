@@ -17,7 +17,7 @@ manner.
 ## Requirements
 
 - A full CRUD app, with create, edit, and delete functionality
-- A functioning database with at least two columns
+- A functioning database with at least two tables
 
 ## Project Prompts
 

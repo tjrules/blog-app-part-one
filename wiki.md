@@ -15,14 +15,9 @@ A basic implementation of this project must include:
 1. All articles should be editable - Henrietta's is a collaborative workplace
 1. If an article is changed, the time of that change should be shown so that 
 users can know how up-to-date an article is
-1. Henrietta wants the articles to be written in markdown so that the content is 
-visually appealing
 1. Henrietta wants users to be able to add a category to an article so that 
 articles can be organized
 1. Henrietta doesn't mind who authors / edits the wikis (Meaning no User model)
-1. Dealer's Choice: Henrietta wants the wiki to either
-    - Option A: Be styled with a CSS Framework such as Skeleton, Materialize, Boostrap, or any other framework that looks interesting
-    - Option B: Offer an advanced feature that displays live updated Markdown text as a user is typing
 
 ###  Advanced features
 
@@ -31,6 +26,8 @@ have the time.
 
 Feel free to enhance your project with any of the following features:
 
+1. Henrietta wants the articles to be written in markdown so that the content is 
+visually appealing
 1. Employees feel that there should be some accountability so Henrietta is going 
 back on her no authors choice
 1. Employees have complained that they feel constrained by a single category and 

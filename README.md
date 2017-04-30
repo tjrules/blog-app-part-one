@@ -18,13 +18,17 @@ manner.
 ## Requirements
 
 - A full CRUD app, with create, edit, and delete functionality
+- MVC-style models, views, and controllers
 - A functioning database with at least two tables
+- An external API call using fetch from the front-end
+- Interactivity in the front end (microinteractions, DOM manipulation, etc.)
 - Wireframes & user stories
 - A thorough README file that contains the following:
     - Why you chose to build this app
     - The technologies you used and a description of how you used them
     - A code snippet of a part of the app you're particularly proud of
     - Any things you plan to fix or features you plan to add
+- Here are a couple of example project ideas: [Forum](forum), [Wiki](wiki)
 
 ## Process
 
@@ -36,13 +40,13 @@ carefully plan our approach.
   * You can choose whether you want to whiteboard the wireframes or use some program.
 - Routes - design the HTTP route architecture of your app
 - Set up a github repo and project board for your project
-
+- Find an API that you plan on using and test it out
 
 ## Timeline
 
 * *Start Planning* - 5:00PM on Monday, May 1 - Choose a project and begin planning
 * *Project Approvals* - 10:00 AM on Tuesday, May 2 - Wireframes, user stories, database structure.
-* *First Check-in* - with squad leader on Wednesday, May 3 - Project board.
+* *First Check-in* - with squad leader on Wednesday, May 3 - Project board, which API you plan to use.
 * *Second Check-in* - 12:00PM on Friday, May 5 - Git repo, routes structure, initial Heroku deployment.
 * *Stand Ups* - Every day with your squad leader
 * *Presentations* - 10:00AM on Monday, May 7

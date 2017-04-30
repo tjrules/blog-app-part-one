@@ -26,14 +26,6 @@ manner.
     - A code snippet of a part of the app you're particularly proud of
     - Any things you plan to fix or features you plan to add
 
-## Project Prompts
-
-You'll be implementing one of the two following web-based CRUD applications for 
-a client. Pick one!
-
-1. [Forum][forum]
-1. [Wiki][wiki]
-
 ## Process
 
 Resist the urge to jump immediately into coding.  For this sprint we want to 

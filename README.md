@@ -92,7 +92,7 @@ Errors often provide the most valuable source of information about what we don't
 
 * __Deployment__: Did you deploy your application to a public url using Heroku?
 
-* __Presentation__: Did you present your game, your code, and your project-making experience clearly and effectively to the class?
+* __Presentation__: Did you present your app, your code, and your project-making experience clearly and effectively to the class?
 
 * __Total__: Your instructors will give you a score for each section between:
 

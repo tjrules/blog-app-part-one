@@ -15,18 +15,7 @@ unstructured work.
 manner.
 -  Learn new technologies by reading documentation and experimenting.
 
-## Deliverables
-
-- A full CRUD app, with create, edit, and delete functionality
-- Wireframes & user stories
-- A thorough README file that contains the following:
-    - Why you chose to build this app
-    - The technologies you used and a description of how you used them
-    - A code snippet of a part of the app you're particularly proud of
-    - Any things you plan to fix or features you plan to add
-- Here are a couple of example projects: [Forum](forum.md), [Wiki](wiki.md)
-
-### Tech Requirements
+## Tech Requirements
 
 You will be expected to use the following technologies to implement this project:
 
@@ -37,6 +26,8 @@ You will be expected to use the following technologies to implement this project
 - **`fetch`**: Your app will need to make a third-party API call using `fetch` from the front-end.
 - **CSS & Design**: Your app should be pleasing to look at. Your design should take usability into account.
 - **JavaScript or jQuery**: Your app should have some interactivity on the front end -- DOM manipulation, microinteractions, etc.
+
+Here are a couple of example projects: [Forum](forum.md), [Wiki](wiki.md)
 
 ## Process
 
@@ -61,18 +52,22 @@ carefully plan our approach.
 
 ## Deliverables
 
-* Public repo on Github with your project code
-* `README.md` (in the root folder of your project) that includes:
-  * The project's name and description
-  * Your feature spec with links to pictures of your wireframes
-  * APIs or modules used and descriptions of each
-  * Instructions for downloading the code and running it on localhost
-* A 5-minute lightning talk that:
-  * Is 5 minutes in length
-  * Shows off all features of the app
-  * Explains the technical details
-  * Explains the technical challenges
-  * Explains which improvements you might make
+- A full CRUD app, with create, edit, and delete functionality
+- A public repository on Github.com with your code for this project & a thorough commit history dating back to the beginning of the project
+- A thorough `README.md` file that contains the following:
+    - The project's name and description
+    - Your wireframes and user stories
+    - The technologies, APIs, and modules you used and a description of each
+    - A code snippet of a part of the app you're particularly proud of
+    - Any things you plan to fix or features you plan to add
+    - Instructions for downloading the code and running it on localhost
+- A presentation in class that:
+    - Is 5 minutes in length
+    - Shows off all features of the app
+    - Explains the technical details
+    - Explains the technical challenges
+    - Explains which improvements you might make
+
 
 ## Instructional help
 In a push for developer indepedence and self-reliance, we are going to adhere to

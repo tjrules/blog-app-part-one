@@ -36,19 +36,16 @@ carefully plan our approach.
 - Wireframes - detail the flow of your app through simple wireframes
   * You can choose whether you want to whiteboard the wireframes or use some program.
 - Routes - design the HTTP route architecture of your app
-- Set up a github repo for your project
-- Iterative Development
-  * Move one story at a time into the `Doing` list. Once it's done, move it to 
-  `Done` and start your next story.
-  * **DO NOT** try to work on more than one or two stories at once.
+- Set up a github repo and project board for your project
 
 
 ## Timeline
 
 * *Start Planning* - 5:00PM on Monday, May 1 - Choose a project and begin planning
-* *First Deliverables* - 10:00 AM on Tuesday, May 2 - Wireframes, database design, user stories, and project board.
-* *Second Deliverables* - 12:00PM on Friday, May 5 - Git repo, routes structure, initial Heroku deployment
-* *Stand Ups* - Every day with your squad leaders
+* *Project Approvals* - 10:00 AM on Tuesday, May 2 - Wireframes, user stories, database structure.
+* *First Check-in* - with squad leader on Wednesday, May 3 - Project board.
+* *Second Check-in* - 12:00PM on Friday, May 5 - Git repo, routes structure, initial Heroku deployment.
+* *Stand Ups* - Every day with your squad leader
 * *Presentations* - 10:00AM on Monday, May 7
 
 ## Deliverables

@@ -20,6 +20,11 @@ manner.
 - A full CRUD app, with create, edit, and delete functionality
 - A functioning database with at least two tables
 - Wireframes & user stories
+- A thorough README file that contains the following:
+    - Why you chose to build this app
+    - The technologies you used and a description of how you used them
+    - A code snippet of a part of the app you're particularly proud of
+    - Any things you plan to fix or features you plan to add
 
 ## Project Prompts
 

@@ -37,9 +37,9 @@ You will be expected to use the following technologies to implement this project
 - **HTML / EJS**: Your HTML should be semantic and valid.
 - **Node and Express**: Your app will need to have its own server.
 - **SQL / PG-PROMISE**: Your app will need to persist data and should have at least two database tables.
-- **FETCH**: Your app will need to make an API call from the front-end.
+- **FETCH**: Your app will need to make a third-party API call from the front-end.
 - **CSS & Design**: Your app should be pleasing to look at. Your design should take usability into account.
-- **JavaScript & jQuery** Your app should have some interactivity
+- **JavaScript & jQuery**: Your app should have some interactivity on the front end.
 
 ## Process
 

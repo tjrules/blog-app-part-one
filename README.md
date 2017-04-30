@@ -52,7 +52,7 @@ carefully plan our approach.
 
 ## Deliverables
 
-- A full CRUD app, with create, edit, and delete functionality
+- A full CRUD app, with create, edit, and delete functionality, hosted on Heroku
 - A public repository on Github.com with your code for this project & a thorough commit history dating back to the beginning of the project
 - A thorough `README.md` file that contains the following:
     - The project's name and description

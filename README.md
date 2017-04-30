@@ -32,9 +32,9 @@ You will be expected to use the following technologies to implement this project
 
 - **HTML / EJS**: Your HTML should be semantic and valid. Your app uses EJS to render information on the page.
 - **Node and Express**: Your app will need to have its own server, built using Express.
-- **MVC PATTERN**: Your app uses Models, Views, Controllers pattern we have gone over in class.
+- **MVC Pattern**: Your app uses Models, Views, Controllers pattern we have gone over in class.
 - **SQL / PG-PROMISE**: Your app will need to persist data. Your app should have **at least two database tables**.
-- **FETCH**: Your app will need to make a third-party API call from the front-end.
+- **`fetch`**: Your app will need to make a third-party API call using `fetch` from the front-end.
 - **CSS & Design**: Your app should be pleasing to look at. Your design should take usability into account.
 - **JavaScript or jQuery**: Your app should have some interactivity on the front end -- DOM manipulation, microinteractions, etc.
 

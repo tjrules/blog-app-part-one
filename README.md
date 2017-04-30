@@ -18,10 +18,6 @@ manner.
 ## Deliverables
 
 - A full CRUD app, with create, edit, and delete functionality
-- MVC-style models, views, and controllers
-- A functioning database with at least two tables
-- An external API call using fetch from the front-end
-- Interactivity in the front end (microinteractions, DOM manipulation, etc.)
 - Wireframes & user stories
 - A thorough README file that contains the following:
     - Why you chose to build this app
@@ -36,6 +32,7 @@ You will be expected to use the following technologies to implement this project
 
 - **HTML / EJS**: Your HTML should be semantic and valid.
 - **Node and Express**: Your app will need to have its own server.
+- **MVC PATTERN**: Your app uses Models, Views, Controllers pattern we have gone over in class.
 - **SQL / PG-PROMISE**: Your app will need to persist data and should have at least two database tables.
 - **FETCH**: Your app will need to make a third-party API call from the front-end.
 - **CSS & Design**: Your app should be pleasing to look at. Your design should take usability into account.

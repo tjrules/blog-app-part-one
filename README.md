@@ -36,7 +36,7 @@ You will be expected to use the following technologies to implement this project
 
 - **HTML / EJS**: Your HTML should be semantic and valid.
 - **Node and Express**: Your app will need to have its own server.
-- **SQL / PG-PROMISE**: Your app will need to persist data.
+- **SQL / PG-PROMISE**: Your app will need to persist data and should have at least two database tables.
 - **FETCH**: Your app will need to make an API call from the front-end.
 
 Once you've got the server side MVP established, you should turn some attention to the client side.

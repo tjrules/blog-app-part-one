@@ -76,7 +76,7 @@ carefully plan our approach.
 
 ## Instructional help
 In a push for developer indepedence and self-reliance, we are going to adhere to
-[these rules](https://git.generalassemb.ly/gist/bobbyking/3b7e8d65205a6a0580559cd304e1ce84) 
+[these rules](./asking-for-help.md) 
 for recieving help during this project.
 
 ## Keep in Mind

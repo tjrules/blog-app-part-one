@@ -33,7 +33,7 @@ comment on comments
 their discussion posts in markdown format.
 3. Jake was wrong about his privacy policy and wants his users to have usernames 
 and all post/comments attributed to them. (Meaning you will need a User model and
- a mock login feature)
+ a login feature)
 
 ### Tips
 

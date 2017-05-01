@@ -27,7 +27,7 @@ Feel free to enhance your project with any of the following features:
 1. Henrietta wants the articles to be written in markdown so that the content is 
 visually appealing
 2. Employees feel that there should be some accountability so Henrietta is going 
-back on her no authors choice
+back on her no authors choice. (This means a Users model and authentication!)
 3. Employees have complained that they feel constrained by a single category and 
 have suggested using multiple tags.
 4. Articles should be browsable by tag.

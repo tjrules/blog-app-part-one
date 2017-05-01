@@ -23,7 +23,7 @@ You will be expected to use the following technologies to implement this project
 - **Node and Express**: Your app will need to have its own server, built using Express.
 - **MVC Pattern**: Your app uses Models, Views, Controllers pattern we have gone over in class.
 - **SQL / PG-PROMISE**: Your app will need to persist data. Your app should have **at least two database tables**.
-- **`fetch`**: Your app will need to make a third-party API call using `fetch` from the front-end (if you can figure out jQuery AJAX or axios, or any of the other AJAx libraries, feel free to use them).
+- **`fetch`**: Your app will need to make a third-party API call using `fetch` from the front-end (if you can figure out jQuery AJAX or axios, or any of the other AJAX libraries, feel free to use them).
     - [List of public APIs](https://github.com/toddmotto/public-apis)
     - [Another list of public APIs](https://github.com/abhishekbanthia/Public-APIs)
     - [Yet another list of public APIs](https://github.com/alexpanov/public-apis)

@@ -45,7 +45,7 @@ carefully plan our approach.
 ## Timeline
 
 * *Start Planning* - 5:00PM on Monday, May 1 - Choose a project and begin planning
-* *Project Approvals* - 10:00 AM on Tuesday, May 2 - Wireframes (like [the todo app wireframe examples](https://git.generalassemb.ly/nyc-wdi-ada/HW_U02_D10_TODO_APP-/blob/master/wireframes.md), user stories, database structure.
+* *Project Approvals* - 10:00 AM on Tuesday, May 2 - Wireframes (like [the todo app wireframe examples](https://git.generalassemb.ly/nyc-wdi-ada/HW_U02_D10_TODO_APP-/blob/master/wireframes.md)), user stories, database structure.
 * *First Check-in* - with squad leader on Wednesday, May 3 - Project board, which API you plan to use.
 * *Second Check-in* - 12:00PM on Friday, May 5 - Git repo, routes structure, initial Heroku deployment.
 * *Stand Ups* - Every day with your squad leader

@@ -68,9 +68,9 @@ carefully plan our approach.
     - Instructions for downloading the code and running it on localhost
 - A presentation in class that:
     - Is 5 minutes in length
-    - Shows off all features of the app
-    - Explains the technical details
-    - Explains the technical challenges
+    - Shows off the features of the app you're most proud of
+    - Explains one or two technical details
+    - Explains one or two technical challenges
     - Explains which improvements you might make
 
 
@@ -101,7 +101,7 @@ Errors often provide the most valuable source of information about what we don't
 
 * __Deployment__: Did you deploy your application to a public url using Heroku?
 
-* __Presentation__: Did you present your app, your code, and your project-making experience clearly and effectively to the class?
+* __Presentation__: Note: this is not graded, but part of the project. Did you present your app, your code, and your project-making experience clearly and effectively to the class?
 
 * __Total__: Your instructors will give you a score for each section between:
 

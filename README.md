@@ -8,10 +8,10 @@
 
 ### Build confidence as a developer by building something of your own.
 
--  Manage yourself (your time and your emotions) when given a large amount of 
+-  Manage yourself (your time and your emotions) when given a large amount of
 unstructured work.
 -  Gain experience building a complex application.
--  Document your work and share it with the public in an effective and articulate 
+-  Document your work and share it with the public in an effective and articulate
 manner.
 -  Learn new technologies by reading documentation and experimenting.
 
@@ -30,17 +30,16 @@ You will be expected to use the following technologies to implement this project
     - TRY OUT your API in postman before you get too emotionally invested in it, to make sure it works the way you think it does...
 - **CSS & Design**: Your app should be pleasing to look at. Your design should take usability into account.
 
-Here are a couple of example projects: [Forum](forum.md), [Wiki](wiki.md)
+Here are a couple of example projects: [Forum](./helpers/forum.md), [Wiki](./helpers/wiki.md)
 
 ## Process
 
-Resist the urge to jump immediately into coding.  For this sprint we want to 
-carefully plan our approach.
+Resist the urge to jump immediately into coding.  For this sprint we want to carefully plan our approach.
 
-- Database - draw out the tables & columns you plan to use in your database.
+- Database - draw out the tables & columns you plan to use in your database (ERD - Entity Relationship Diagram - is a fancy word for it)
 - Wireframes - detail the flow of your app through simple wireframes
   * You can choose whether you want to whiteboard the wireframes or use some program.
-  * Refer back to the [todo app wireframes](https://git.generalassemb.ly/nyc-wdi-ada/HW_U02_D10_TODO_APP-/blob/master/wireframes.md) for an example of what we expect!
+  * Refer back to the [todo app wireframes](./helpers/wireframes.md) for an example of what we expect!
 - Routes - design the HTTP route architecture of your app
 - Set up a separate standing github repo (NOT this repo!) and **project board** for your project
 - Find an API that you plan on using and test it out
@@ -74,8 +73,8 @@ carefully plan our approach.
 
 
 ## Instructional help
-In a push for developer indepedence and self-reliance, we are going to adhere to
-[these rules](./asking-for-help.md) for recieving help during this project.
+In a push for developer independence and self-reliance, we are going to adhere to
+[these rules](./helpers/asking-for-help.md) for receiving help during this project.
 
 ## Keep in Mind
 
@@ -89,10 +88,12 @@ Errors often provide the most valuable source of information about what we don't
 
 ### Project Feedback + Evaluation
 
+Check out the evaluation rubric [HERE](./helpers/project-evaluation.md)
+
 
 ### A Note on Plagiarism
 
-Plagiarism is a serious offense and grounds for expulsion. Our entire policy can be found [in the wiki](https://github.com/ga-students/wdi-nyc-purple-rain-students/wiki/General-Assembly-Plagiarism-Policy).
+Plagiarism is a serious offense and grounds for expulsion. Our entire policy can be found [HERE](./helpers/plagiarism-policy.md).
 
 You are encouraged to ask others, including students, instructors, and stackoverflow, for help. However, it is NOT ACCEPTABLE TO COPY another person's code and submit it as your own. More importantly, it is detrimental to your learning and growth.
 
@@ -106,6 +107,7 @@ All of the following are considered plagiarism or cheating:
 * Changing words, variable names, etc. but copying the code or files of a source without giving credit.
 * Copying so many ideas or code blocks from a source that it makes up the majority of your work, whether you give credit or not.
 * Failing to put a quotation in quotation marks.
+* Submitting work that consist of more than 50% of work that is not your own, even if cited!
 
 In an effort to not plagiarize, credit for this content goes to:
 * [Plagiarism.org](http://plagiarism.org/), specifically the “plagiarism 101” section.  Content was adapted for code.  For more information, please see:

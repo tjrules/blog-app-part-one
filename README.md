@@ -55,7 +55,7 @@ Resist the urge to jump immediately into coding.  For this sprint we want to car
 
 ## Deliverables
 
-- A full CRUD app, with create, edit, and delete functionality, hosted on Heroku
+- A full CRUD app, with create, edit, and delete functionality that has at least 2 related models and ulilizes a 3rd party API and is hosted on Heroku
 - A public repository on **Github.com** with your code for this project & a thorough commit history dating back to the beginning of the project
 - A thorough `README.md` file that contains the following:
     - The project's name and description

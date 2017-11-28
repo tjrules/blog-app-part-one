@@ -22,14 +22,13 @@ You will be expected to use the following technologies to implement this project
 - **HTML / EJS**: Your HTML should be semantic and valid. Your app uses EJS to render information on the page.
 - **Node and Express**: Your app will need to have its own server, built using Express.
 - **MVC Pattern**: Your app uses Models, Views, Controllers pattern we have gone over in class.
-- **SQL / PG-PROMISE**: Your app will need to persist data. Your app should have **at least two database tables**.
-- **`fetch`**: (this can be post-MVP, but highly encouraged) Your app will need to make a third-party API call using `fetch` from the front-end (if you can figure out jQuery AJAX or axios, or any of the other AJAX libraries, feel free to use them).
+- **SQL / PG-PROMISE**: Your app will need to persist data. Your app should have **at least two related models**.
+- Your app will need to make a third-party API call from the back-end using ANY npm package of your choosing.
     - [List of public APIs](https://github.com/toddmotto/public-apis)
     - [Another list of public APIs](https://github.com/abhishekbanthia/Public-APIs)
     - [Yet another list of public APIs](https://github.com/alexpanov/public-apis)
     - TRY OUT your API in postman before you get too emotionally invested in it, to make sure it works the way you think it does...
 - **CSS & Design**: Your app should be pleasing to look at. Your design should take usability into account.
-- **JavaScript or jQuery**: Your app should have some interactivity on the front end -- DOM manipulation, microinteractions, etc.
 
 Here are a couple of example projects: [Forum](forum.md), [Wiki](wiki.md)
 
@@ -43,22 +42,22 @@ carefully plan our approach.
   * You can choose whether you want to whiteboard the wireframes or use some program.
   * Refer back to the [todo app wireframes](https://git.generalassemb.ly/nyc-wdi-ada/HW_U02_D10_TODO_APP-/blob/master/wireframes.md) for an example of what we expect!
 - Routes - design the HTTP route architecture of your app
-- Set up a github repo and project board for your project
+- Set up a separate standing github repo (NOT this repo!) and **project board** for your project
 - Find an API that you plan on using and test it out
 
 ## Timeline
 
-* *Start Planning* - 5:00PM on Monday, May 1 - Choose a project and begin planning
-* *Project Approvals* - 10:00 AM on Tuesday, May 2 - Wireframes (like [the todo app wireframe examples](https://git.generalassemb.ly/nyc-wdi-ada/HW_U02_D10_TODO_APP-/blob/master/wireframes.md)), user stories, database structure.
-* *First Check-in* - with squad leader on Wednesday, May 3 - Project board, which API you plan to use.
-* *Second Check-in* - 12:00PM on Friday, May 5 - Git repo, routes structure, initial Heroku deployment.
+* *Start Planning* - 5:00PM on Tuesday, November 28 - Choose a project and begin planning
+* *Project Approvals* - 9:30 AM - 10:30 AM on Wednesday, November 29 - Wireframes, user stories, database structure.
+* *First Check-in* - 12:00 PM Thursday, November 30 with squad leader - Project board, which API you plan to use, proof of concept.
+* *Second Check-in* - 12:00PM on Friday, December 1 - Git repo, routes structure, database, initial Heroku deployment(we will provide the steps).
 * *Stand Ups* - Every day with your squad leader
-* *Presentations* - 10:00AM on Monday, May 7
+* *Presentations* - 10:00AM on Tuesday, December 5th ( YOU GET AN EXTRA DAY! MAKE US PROUD ❤️ )
 
 ## Deliverables
 
 - A full CRUD app, with create, edit, and delete functionality, hosted on Heroku
-- A public repository on Github.com with your code for this project & a thorough commit history dating back to the beginning of the project
+- A public repository on **Github.com** with your code for this project & a thorough commit history dating back to the beginning of the project
 - A thorough `README.md` file that contains the following:
     - The project's name and description
     - Your wireframes and user stories
@@ -76,8 +75,7 @@ carefully plan our approach.
 
 ## Instructional help
 In a push for developer indepedence and self-reliance, we are going to adhere to
-[these rules](./asking-for-help.md) 
-for recieving help during this project.
+[these rules](./asking-for-help.md) for recieving help during this project.
 
 ## Keep in Mind
 
@@ -91,28 +89,6 @@ Errors often provide the most valuable source of information about what we don't
 
 ### Project Feedback + Evaluation
 
-* __Project Workflow__: Did you complete the user stories, wireframes as specified above? Did you use source control (Git) as expected for the phase of the program you’re in (detailed above)? Did you submit your project via an issue ticket on GHE?
-
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
-
-* __Creativity__: Did you added a personal spin or creative element into your project submission?
-
-* __Code Quality__: Did you follow code style guidance and best practices covered in class, such as spacing, modularity, and semantic naming? Did you comment your code as your instructors have in class?
-
-* __Deployment__: Did you deploy your application to a public url using Heroku?
-
-* __Presentation__: Note: this is not graded, but part of the project. Did you present your app, your code, and your project-making experience clearly and effectively to the class?
-
-* __Total__: Your instructors will give you a score for each section between:
-
-| Score          | Expectations   |
-| :------------- | :------------- |
-| **0**          | _Incomplete._  |
-| **1**          | _Does not meet expectations._ |
-| **2**          | _Meets expectations, good job!_ |
-| **3**          | _Exceeds expectations, you wonderful creature, you!_ |
-
-This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
 
 ### A Note on Plagiarism
 

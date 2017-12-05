@@ -7,7 +7,7 @@
 | 4          | Provided complete wireframes                         | No Wireframes                                | Wirefreames are present but don't fully reflect the functionality of the application.                             | Wireframes are clean and organized and reflect the architecture of the application.                            | 8               |       |
 | 5          | Used Git                                             | Did not use Git, or only has ONE git commit. | The project's Commit history contains fewer than 10 commits.                                                       | Project contains development history using frequent and descriptive commit messages.                           | 2               |       |
 | 6          | Submitted project via GHE?                           | Did not submit project via GHE               | Late Submission.                                                                                                  | Submitted project via GHE ON TIME                                                                              | 2               |       |
-| <th colspan=4> Technical Requirements (96pt max) </th>                                              
+| <th colspan=4> Technical Requirements (86pt max) </th>                                              
 | 7   | Create functionality is present and fully functional | NO  | some functionality | YES | 8
 | 8   | Read functionality is present and fully functional   | NO  | some functionality | YES | 8 
 | 9   | Update Functionality is present and fully functional | NO  | some functionality | YES | 8   

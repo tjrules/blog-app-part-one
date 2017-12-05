@@ -17,15 +17,14 @@
 | 13  | Used EJS                                             | No EJS | Some routes contain direct html rendering without using ejs | All HTML rendered using EJS| 8               
 | 14  | Separated Concerns (eg. MVC)                         | All logic and routes in one file  | Did not fully follow any MVC pattern, but partially separated the concerns                                       | All concerns separated into either models, views and controllers.                                              | 8               
 | 15  | Used PG-Promise with SQL   | No database and/or no pg-promise | Used Inline variables to pass to the queries                                                                      | All queries were thoughtfully organized and all query parameters bound inside of the PG-Promise library.       | 10 
-| 16  | Utilized an external API   | Did not utilize external API   | Attempted | Successfully utilize the API | 10
-| 17  | Used CSS to style website  | Absolutely no styling present  | Some styling, but not visually pleasing or cohesive | Every element of the app is styled  | 8 
+| 16  | Used CSS to style website  | Absolutely no styling present  | Some styling, but not visually pleasing or cohesive | Every element of the app is styled  | 8 
 | <th colspan=4>Creativity (16pts max) </th>  
-| 18  | Visually interesting design | No design | Not visually pleasing design | Awesome design | 8 
-| 19  | Added personal touch        | Exact copy of the tutorial (quotes) app  | traces of previous code, and/or copy/paste | Added personal touch | 8  
+| 17  | Visually interesting design | No design | Not visually pleasing design | Awesome design | 8 
+| 18  | Added personal touch        | Exact copy of the tutorial (quotes) app  | traces of previous code, and/or copy/paste | Added personal touch | 8  
 |  <th colspan=4>Code Quality (22pts max)</th> 
-| 20  | AirBnb style linted           | The code does not follow any styleguide | Some files use AirBnB style. | All code follows AirBnB styleguide| 8               
-| 21  | Semantically named variables  | Inapropriately named variables          | Not all variable are semantically named | All variables are semantically named | 8
-| 22         | Comments are accurate and descriptive                | No comments at all                           | Some comments, or not descriptive comments                                                                        | Code is mostly commented and comments are clear, and accurately describe the accompanying block of code.       | 6  
+| 19  | AirBnb style linted           | The code does not follow any styleguide | Some files use AirBnB style. | All code follows AirBnB styleguide| 8               
+| 20  | Semantically named variables  | Inapropriately named variables          | Not all variable are semantically named | All variables are semantically named | 8
+| 21         | Comments are accurate and descriptive                | No comments at all                           | Some comments, or not descriptive comments                                                                        | Code is mostly commented and comments are clear, and accurately describe the accompanying block of code.       | 6  
 | <th colspan=4>Deployment (8 pts max)</th>                                        
-| 23         | Application is fully deployed and operational        | Not deployed                                 | Attempted to deploy but the application does not function properly                                                | Fully deployed and functional application on heroku                                                            | 8               |       |
-| <th colspan=4>Total  (166 pts max)</th>  
+| 22         | Application is fully deployed and operational        | Not deployed                                 | Attempted to deploy but the application does not function properly                                                | Fully deployed and functional application on heroku                                                            | 8               |       |
+| <th colspan=4>Total  (156 pts max)</th>  

@@ -12,7 +12,7 @@
 | 8   | Read functionality is present and fully functional   | NO  | some functionality | YES | 8 
 | 9   | Update Functionality is present and fully functional | NO  | some functionality | YES | 8   
 | 10  | Delete functionality is present                      | NO  | some functionality | YES | 8
-| 11 | Used Two models / tables | Did not use any database tables|Used one database table | Used two or more database tables| 10
+| 11 | Used Two models / tables | Did not use any database tables|Used one database table | Used two or more related database tables (with a join)| 10
 | 12 | Used a 3rd-party API | Did not use | attempted / bugs present| Used one or more API consistently across app| 10
 | 13  | Used EJS                                             | No EJS | Some routes contain direct html rendering without using ejs | All HTML rendered using EJS| 8               
 | 14  | Separated Concerns (eg. MVC)                         | All logic and routes in one file  | Did not fully follow any MVC pattern, but partially separated the concerns                                       | All concerns separated into either models, views and controllers.                                              | 8               

@@ -22,9 +22,9 @@
 | 17  | Visually interesting design | No design | Not visually pleasing design | Awesome design | 
 | 18  | Added personal touch        | Exact copy of the tutorial (quotes) app  | traces of previous code, and/or copy/paste | Added personal touch |   
 |  <th colspan=4>Code Quality </th> 
-| 19  | AirBnb style linted           | The code does not follow any styleguide | Some files use AirBnB style. | All code follows AirBnB styleguide| 8               
+| 19  | AirBnb style linted           | The code does not follow any styleguide | Some files use AirBnB style. | All code follows AirBnB styleguide|                
 | 20  | Semantically named variables  | Inapropriately named variables          | Not all variable are semantically named | All variables are semantically named | 
 | 21         | Comments are accurate and descriptive                | No comments at all                           | Some comments, or not descriptive comments                                                                        | Code is mostly commented and comments are clear, and accurately describe the accompanying block of code.       |
 | <th colspan=4>Deployment (8 pts max)</th>                                        
 | 22         | Application is fully deployed and operational        | Not deployed                                 | Attempted to deploy but the application does not function properly                                                | Fully deployed and functional application on heroku                                                            |                |       |
-| <th colspan=4>Total  (156 pts max)</th>  
+| <th colspan=4>Total  </th>  

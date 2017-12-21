@@ -46,12 +46,12 @@ Resist the urge to jump immediately into coding.  For this sprint we want to car
 
 ## Timeline
 
-* *Start Planning* - 5:00PM on Tuesday, November 28 - Choose a project and begin planning
-* *Project Approvals* - 9:30 AM - 10:30 AM on Wednesday, November 29 - Wireframes, user stories, database structure.
-* *First Check-in* - 12:00 PM Thursday, November 30 with squad leader - Project board, which API you plan to use, proof of concept.
-* *Second Check-in* - 12:00PM on Friday, December 1 - Git repo, routes structure, database, initial Heroku deployment(we will provide the steps).
+* *Start Planning* - 5:00PM on Thursday, December 21 - Choose a project and begin planning
+* *Project Approvals* - 1:30PM-4PM on Friday, December 22 - Wireframes, user stories, database structure.
+* *First Check-in* - 9AM Thursday, January 4 with squad leader - Project board, which API you plan to use, proof of concept.
+* *Second Check-in* - 9AM on Friday, January 5 - Git repo, routes structure, database, initial Heroku deployment(we will provide the steps).
 * *Stand Ups* - Every day with your squad leader
-* *Presentations* - 10:00AM on Tuesday, December 5th ( YOU GET AN EXTRA DAY! MAKE US PROUD ❤️ )
+* *Presentations* - 10AM on Wednesday, January 11 
 
 ## Deliverables
 
@@ -73,8 +73,7 @@ Resist the urge to jump immediately into coding.  For this sprint we want to car
 
 
 ## Instructional help
-In a push for developer independence and self-reliance, we are going to adhere to
-[these rules](./helpers/asking-for-help.md) for receiving help during this project.
+Your squad leader will meet with you every day during the week of the project in 30-minute blocks for one-on-one help between 9 and noon.
 
 ## Keep in Mind
 

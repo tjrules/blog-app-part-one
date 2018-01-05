@@ -1,0 +1,5 @@
+
+CREATE TABLE IF NOT EXISTS author (
+  id BIGSERIAL PRIMARY KEY,
+  name TEXT
+);

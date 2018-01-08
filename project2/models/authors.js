@@ -1,6 +1,6 @@
 const db = require('../db/config');
 const Authors = {};
-
+// const API = require('./api-controller')
 Authors.findAll = () => {
   return db.query('SELECT * FROM author');
 }

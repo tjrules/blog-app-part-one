@@ -15,10 +15,9 @@
 <label for="author_id">author</label>
 <select name="author_id" id="author_id">
   <% authors.forEach(author => { %>
- <option
-   name="<%= author.id %>"
-   selected="<%= blog.author_id %>">
-   <%= author.id %>
+ <option value="<%= author.id %>"
+   >
+   <%= author.name %>
  </option>
   <% }) %>
 </select>

@@ -1,0 +1,30 @@
+
+<h1>Add a new post</h1>
+
+<form action="/blog" method="POST">
+  <label for="title">Title</label>
+  <input id="title" type="text" name="title" />
+
+  <br />
+
+  <label for="content">content</label>
+  <input id="content" type="text" name="content" />
+
+<label for="author_id">author</label>
+<select id="author_id" name="author_id">
+  <% authors.forEach(author => { %>
+    <option name="<%= author.id %>">
+      <%= author.name %>
+    </option>
+  <% }) %>
+</select>
+
+
+  <br />
+
+
+
+  <input type="submit" value="Ready to POST!" />
+</form>
+
+<a href="/blog">Cancel</a>

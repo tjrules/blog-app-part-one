@@ -1,0 +1,29 @@
+
+<h1>Edit blog post</h1>
+
+
+<form action="<%= `/blog/${blog.id}?_method=PUT` %>" method="POST">
+  <label for="title">Title</label>
+  <input id="title" type="text" name="title" value="<%= blog.title %>" />
+
+  <br />
+
+  <label for="content">content</label>
+  <input id="content" type="text" name="content" value="<%= blog.content %>" />
+
+  <br />
+<label for="author_id">author</label>
+<select name="author_id" id="author_id">
+  <% authors.forEach(author => { %>
+ <option
+   name="<%= author.id %>"
+   selected="<%= blog.author_id %>">
+   <%= author.id %>
+ </option>
+  <% }) %>
+</select>
+
+  <input type="submit" value="Save changes" />
+</form>
+
+<a href="<%= `/blog/${blog.id}` %>">Cancel</a>

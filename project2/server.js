@@ -10,9 +10,9 @@ const PORT = process.env.PORT || 3000;
 app.use(morgan('dev'));
 app.use(override('_method'));
 app.use(bodyParser.json());
-// app.use(bodyParser.urlencoded({
-//   extended: false
-// }));
+app.use(bodyParser.urlencoded({
+  extended: false
+}));
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'views'));
@@ -23,6 +23,12 @@ app.use(express.static(__dirname + '/public'));
 app.get('/', (req,res) => {
   res.send('Blah Blah Blah');
 })
+
+const blogRouter = require('./routes/blog-routes');
+app.use('/blog', blogRouter);
+
+const apiRouter = require('./routes/api-routes');
+app.use('/api', apiRouter);
 
 app.get('*', (req,res)=>{
   res.status(404).send('Hahahahaha I brought you to a dead end!');

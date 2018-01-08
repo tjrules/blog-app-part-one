@@ -1,4 +1,12 @@
 
+INSERT INTO author (name) VALUES
+(
+  'TJ'
+),
+(
+  'Bob'
+);
+
 INSERT INTO blog (title, content, author_id) VALUES
 (
   'Blog Post the first',
@@ -9,12 +17,4 @@ INSERT INTO blog (title, content, author_id) VALUES
   'Second Blog Post',
   'This is your second blog post, it is less interesting than your first blog post because you have less interesting things to say',
   2
-);
-
-INSERT INTO author (name) VALUES
-(
-  'TJ'
-),
-(
-  'Bob'
 );

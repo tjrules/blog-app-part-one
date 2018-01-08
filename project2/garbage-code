@@ -1,0 +1,30 @@
+`
+UPDATE blog SET
+title = $1,
+content = $2,
+author_id = $3
+Where id = $4
+`,
+[blog.title, blog.content, blog.author_id, id]
+);
+}
+
+Blog.create = blog => {
+  return db.one(
+    `
+    INSERT INTO blog
+    (title, content, author_id)
+    Values ($1, $2, $3) RETURNING *
+    `,
+    [blog.title, blog.content, blog.author_id]
+  );
+}
+
+
+<select id="author_id" name="author_id">
+  <% author.forEach(author => {%>
+    <option value="<%= author.id %>">
+      <%= `${author.name}` %>
+    </option>
+  <% }) %>
+</select>

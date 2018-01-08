@@ -1,0 +1,28 @@
+
+
+
+<% include ../partials/head.ejs %>
+
+<h1 class="">Blog Posts</h1>
+
+
+<a href="/blog/new">New post!</a>
+<div class="blog-wrapper">
+<% blog.forEach(blog => { %>
+  <div class="blog">
+    <h4>
+      <a href="<%= `/blog/${blog.id}` %>">
+        <%= blog.title %>
+      </a>
+    </h4>
+    <p><%= blog.description %></p>
+    <p>By <%= blog.author_id %></p>
+    <p><%= blog.content %></p>
+  </div>
+<% }) %>
+</div>
+
+<div class="api-wrapper">
+<h1>THis is API:
+</h1>
+ </div>

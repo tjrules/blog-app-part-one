@@ -1,16 +1,47 @@
 const Blog = require('../models/blog');
 const Authors = require('../models/authors');
+const News = require('./api-controller');
 const blogController = {};
+console.log(News);
 
 blogController.index = (req, res) => {
   Blog.findAll()
     .then(blog => {
-      res.render('blog/index', {
-        message: 'ok',
-        blog: blog
-      })
+      News.findAll()
+       .then(news => {
+         res.render('blog/index', {
+           blog:blog,
+           news:news
+         })
+       }).catch(err => {
+         res.status(400).json(err)
+       })
+    }).catch(err => {
+      res.status(400).json(err)
     })
-}
+};
+
+// blogController.index = (req, res) => {
+//   Blog.findAll()
+//     .then(blog => {
+//
+//
+//       News.search()
+//         .then(news => {
+//   console.log('this is res', res);
+//           res.render('blog/index', {
+//
+//             blog: blog,
+//             news: news
+//           })
+//         }).catch(err => {
+//           res.status(400).send('erroring out ')
+//         })
+//
+//     }).catch(err => {
+//       res.status(400).json(err)
+//     })
+// };
 
 blogController.show = (req, res) => {
   Blog.findById(req.params.id)
@@ -28,7 +59,6 @@ blogController.show = (req, res) => {
             res.status(400).json(err)
           })
       } else {
-        console.log('no author here')
         res.render('blog/show', {
           blog: blog
         })

@@ -5,7 +5,7 @@ const override = require('method-override');
 const path = require('path');
 const bodyParser = require('body-parser');
 const PORT = process.env.PORT || 3000;
-
+require('dotenv').config();
 
 app.use(morgan('dev'));
 app.use(override('_method'));

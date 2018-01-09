@@ -1,8 +1,8 @@
 const express = require('express');
 const blogRouter = express.Router();
 const blogController = require('../controllers/blog-controller');
-
-blogRouter.get('/', blogController.index);
+const apiController = require('../controllers/api-controller');
+blogRouter.get('/', apiController.search, blogController.index);
 blogRouter.get('/new', blogController.new);
 blogRouter.get('/:id', blogController.show);
 blogRouter.get('/:id/edit', blogController.edit);

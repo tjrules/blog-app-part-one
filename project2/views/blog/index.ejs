@@ -23,7 +23,8 @@
 </div>
 
 <div class="api-wrapper">
-<h1>THis is API:
-</h1>
-<h1><%= news.title %></h1>
+<h1>THis is API:</h1>
+<% news.forEach(thing => { %>
+  <h1><%= thing.title %></h1>
+<% }) %>
  </div>

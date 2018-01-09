@@ -14,6 +14,8 @@ http://res.cloudinary.com/dftzmialt/image/upload/v1515437699/IMG_20180105_115151
 -extra styling - 6 hours
 
 #Functional Components
--created file/folder structure-2 hours
--api call - 4 hours
-- crud functionality - 12 hours, still tweaking
+- created file/folder structure-2 hours
+- api call - 4 hours/ still tweaking
+- crud functionality - 12 hours, mostly done
+- auth - 2 hours/ kinda working
+- db - hours/

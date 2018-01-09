@@ -2,21 +2,22 @@ const Blog = require('../models/blog');
 const Authors = require('../models/authors');
 const News = require('./api-controller');
 const blogController = {};
-console.log(News);
+// console.log(News);
 
 blogController.index = (req, res) => {
   Blog.findAll()
     .then(blog => {
-      News.findAll()
-       .then(news => {
+      // console.log('hello from the blog controller side', blog)
+      // News.search();
+       // .then(news => {
+         // console.log('hello from the api controller side', news)
+         console.log(res.locals.newsArticles.articles)
+         // res.send('bitches')
          res.render('blog/index', {
-           blog:blog,
-           news:news
+           news: res.locals.newsArticles.articles,
+           blog: blog
          })
        }).catch(err => {
-         res.status(400).json(err)
-       })
-    }).catch(err => {
       res.status(400).json(err)
     })
 };

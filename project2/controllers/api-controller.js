@@ -10,7 +10,7 @@ apiController.search = (req,res, next) => {
   // console.log('hello from the search method')
   axios({
     method: 'get',
-    url: `https://newsapi.org/v2/top-headlines?sources=bbc-news&apikey=50c3df675f714994bb57b8ca53fc4a0b`
+    url: `https://newsapi.org/v2/everything?q=bacon&sortBy=popularity&apiKey=${process.env.API}`
   })
   .then((data) => {
     console.log('api call successful', data.data)

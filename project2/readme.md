@@ -7,6 +7,7 @@ http://res.cloudinary.com/dftzmialt/image/upload/v1515437699/IMG_20180105_115151
 -basic styling - 4 hours
 -views - 3 hours
 -create db - 2 hours
+-responsive - 4 hours
 
 #Post MVP
 -login - 6 hours
@@ -15,7 +16,10 @@ http://res.cloudinary.com/dftzmialt/image/upload/v1515437699/IMG_20180105_115151
 
 #Functional Components
 - created file/folder structure-2 hours
-- api call - 4 hours/ still tweaking
-- crud functionality - 12 hours, mostly done
-- auth - 2 hours/ kinda working
-- db - hours/
+- api call - 6 hours/ working
+- crud functionality - 12 hours working
+- auth - 4 hours/ working
+- db - hours/2 working
+- views 3 hours working
+- styling/ 6 hours - still working
+- responsive 2 hours - pretty responsive so far

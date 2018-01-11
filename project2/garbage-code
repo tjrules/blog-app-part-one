@@ -28,3 +28,80 @@ Blog.create = blog => {
     </option>
   <% }) %>
 </select>
+
+
+<% news.forEach(thing => { %>
+  <h1><a href="<%= thing.url %>"><%= thing.title %></a></h1>
+  <p><%= thing.description %></p>
+  <img src="<%= thing.urlToImage %>" alt="">
+<% }) %>
+ </div>
+<% news.forEach(thing => { %>
+<% }) %>
+<form method="POST" action="/auth/login">
+  <input name="username" type="text" placeholder="username" required />
+  <input name="password" type="password" placeholder="password" required />
+  <input type="submit" value="Login" />
+</form>
+
+<a href="/auth/register">Register</a>
+
+<h1>Add a new post</h1>
+
+<form action="/blog" method="POST">
+  <label for="title">Title</label>
+  <input id="title" type="text" name="title" />
+
+  <br />
+
+  <label for="content">content</label>
+  <input id="content" type="text" name="content" />
+
+<label for="author_id">author</label>
+<select id="author_id" name="author_id">
+  <% authors.forEach(author => { %>
+    <option value="<%= author.id %>">
+      <%= author.name %>
+    </option>
+  <% }) %>
+</select>
+
+
+  <br />
+
+
+
+  <input type="submit" value="Ready to POST!" />
+</form>
+
+
+
+<div class="container-fluid">
+
+<h1 class="">Blog Posts</h1>
+
+<% blog.forEach(blog => { %>
+  <div class="row">
+    <%= blog.title %>
+    <div class="row">
+
+  </div>
+  </div>
+<% }) %>
+
+<a href="/blog/new">New post!</a>
+<div class="blog-wrapper">
+<% blog.forEach(blog => { %>
+  <div class="blog">
+    <h4>
+      <a href="<%= `/blog/${blog.id}` %>">
+        <%= blog.title %>
+      </a>
+    </h4>
+    <p><%= blog.content %></p>
+    <p>By <%= blog.author_id %></p>
+    <p><%= blog.content %></p>
+  </div>
+<% }) %>
+</div>
+</div>

@@ -22,4 +22,15 @@ Authors.update = (blog, id) => {
   );
 };
 
+Authors.create = authors => {
+  return db.one(
+    `
+    INSERT INTO authors
+    (title, content, author_id, user_id)
+    Values ($1, $2, $3, $4) RETURNING *
+    `,
+    [blog.title, blog.content, blog.author_id, blog.user_id]
+  )
+}
+
 module.exports = Authors;

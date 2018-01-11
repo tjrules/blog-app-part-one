@@ -5,3 +5,7 @@ h1{
 form {
   background-color: red;
 }
+
+.jumbotron {
+  text-align: center;
+}

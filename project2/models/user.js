@@ -2,6 +2,10 @@ const db = require('../db/config');
 
 const User = {};
 
+User.findAll = () => {
+    return db.query(`SELECT * FROM users`);
+}
+
 User.findByUserName = userName => {
   return db.oneOrNone(
   `

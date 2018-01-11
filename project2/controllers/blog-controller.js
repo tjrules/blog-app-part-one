@@ -119,7 +119,8 @@ blogController.create = (req, res) => {
   Blog.create({
       title: req.body.title,
       content: req.body.content,
-      author_id: req.body.author_id
+      author_id: req.body.author_id,
+      // user_id: req.body.user.id //added user_id object 
     })
     .then(blog => {
       res.redirect(`/blog/${blog.id}`)

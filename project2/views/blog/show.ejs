@@ -1,15 +1,17 @@
-<h1><%= blog.title %></h1>
-<p><%= blog.content %></p>
+<% include ../partials/head.ejs %>
+<% include ../partials/nav.ejs %>
 
+<div class="container">
+  <div class="jumbotron">
+    <h1><%= blog.title %></h1>
+    <p><%= blog.content %></p>
+  </div>
+  <h4>Written By: <%= author.name %> </h4>
+  <button class="btn"><a href="/blog">Back</a></button>
+<button class='btn'>  <a href="<%= `/blog/${blog.id}/edit` %>">Edit</a> </button>
+  <form action="<%= `/blog/${blog.id}?_method=DELETE` %>" method="POST">
+    <input type="submit" value="Delete" />
+  </form>
+</div>
 
-<% if (author) { %>
-<h4>Written By: <%= author.name %> </h4>
-
-<% } %>
-
-<a href="/blog">Back to your blog</a>
-<a href="<%= `/blog/${blog.id}/edit` %>">Edit</a>
-
-<form action="<%= `/blog/${blog.id}?_method=DELETE` %>" method="POST">
-  <input type="submit" value="Delete" />
-</form>
+<% include ../partials/end.ejs %>

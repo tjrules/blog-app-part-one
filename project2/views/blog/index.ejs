@@ -2,29 +2,25 @@
 
 
 <% include ../partials/head.ejs %>
+<% include ../partials/nav.ejs %>
+<div class="container-fluid ">
+  <h2>Today's Headlines</h2>
 
-<h1 class="">Blog Posts</h1>
+  <% news.forEach(thing => { %>
+<div class="row well table-hover">
+  <div class="col-md-2"><a href="<%= thing.url %>"><img class="img-circle img-responsive" src="<%= thing.urlToImage %>" alt="thing.title" ></a></div>
+  <div class="col-md-4"><%= thing.description %></div>
+
+</div>
+<% }) %>
 
 
-<a href="/blog/new">New post!</a>
-<div class="blog-wrapper">
+
 <% blog.forEach(blog => { %>
-  <div class="blog">
-    <h4>
-      <a href="<%= `/blog/${blog.id}` %>">
-        <%= blog.title %>
-      </a>
-    </h4>
-    <p><%= blog.description %></p>
-    <p>By <%= blog.author_id %></p>
-    <p><%= blog.content %></p>
-  </div>
+<div class="row well table-hover">
+<div class="col-md-2"><a href="<%= `/blog/${blog.id}` %>"><%= blog.title %></a></div>
+<div class="col-md-4"><%= blog.content %></div>
+</div>
 <% }) %>
 </div>
-
-<div class="api-wrapper">
-<h1>THis is API:</h1>
-<% news.forEach(thing => { %>
-  <h1><%= thing.title %></h1>
-<% }) %>
- </div>
+<% include ../partials/end.ejs %>

@@ -14,7 +14,9 @@ Blog.findById = (id) => {
   return db.oneOrNone(`SELECT * FROM blog WHERE id = $1`, id);
 }
 
-
+Blog.findByUserId = (id) => {
+  return db.one(`Select * FROM blog WHERE user_id = $1`, id);
+}
 
 // Blog.findById = (id) => {
 //   return db.oneOrNone(`SELECT * FROM blog where id = $1`, [id]);
@@ -38,10 +40,10 @@ Blog.create = blog => {
   return db.one(
     `
     INSERT INTO blog
-    (title, content, author_id)
-    Values ($1, $2, $3) RETURNING *
+    (title, content, author_id, user_id)
+    Values ($1, $2, $3, $4) RETURNING *
     `,
-    [blog.title, blog.content, blog.author_id]
+    [blog.title, blog.content, blog.author_id, blog.user_id]
   )
 }
 

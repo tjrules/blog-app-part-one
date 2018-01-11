@@ -11,6 +11,8 @@ const passport = require('passport');
 
 require('dotenv').config();
 
+app.use(morgan('dev'))
+
 app.use(cookieParser());
 app.use(bodyParser());
 
@@ -38,7 +40,6 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'views'));
 
 app.use(express.static(__dirname + '/public'));
-
 
 app.get('/', (req,res) => {
   res.send('Blah Blah Blah');

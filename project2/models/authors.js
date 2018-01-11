@@ -22,14 +22,14 @@ Authors.update = (blog, id) => {
   );
 };
 
-Authors.create = authors => {
+Authors.create = author => {
   return db.one(
     `
     INSERT INTO authors
-    (title, content, author_id, user_id)
-    Values ($1, $2, $3, $4) RETURNING *
+    (name)
+    Values ($1) RETURNING *
     `,
-    [blog.title, blog.content, blog.author_id, blog.user_id]
+    [author.name]
   )
 }
 

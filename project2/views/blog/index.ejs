@@ -1,0 +1,26 @@
+
+
+
+<% include ../partials/head.ejs %>
+<% include ../partials/nav.ejs %>
+<div class="container-fluid ">
+  <h2>Today's Headlines</h2>
+
+  <% news.forEach(thing => { %>
+<div class="row well table-hover">
+  <div class="col-md-2"><a href="<%= thing.url %>"><img class="img-circle img-responsive" src="<%= thing.urlToImage %>" alt="thing.title" ></a></div>
+  <div class="col-md-4"><%= thing.description %></div>
+
+</div>
+<% }) %>
+
+
+
+<% blog.forEach(blog => { %>
+<div class="row well table-hover">
+<div class="col-md-2"><a href="<%= `/blog/${blog.id}` %>"><%= blog.title %></a></div>
+<div class="col-md-4"><%= blog.content %></div>
+</div>
+<% }) %>
+</div>
+<% include ../partials/end.ejs %>

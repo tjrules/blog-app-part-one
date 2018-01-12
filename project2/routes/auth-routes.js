@@ -13,7 +13,7 @@ authRouter.get('/register', authHelpers.loginRedirect, (req, res) => {
   res.render('auth/register');
 });
 
-authRouter.post('/register', usersController.create, authorController.create);
+authRouter.post('/register', usersController.create );//authorController.create
 
 
 authRouter.post('/login', passport.authenticate('local', {

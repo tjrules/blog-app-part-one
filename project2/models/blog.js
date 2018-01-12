@@ -11,11 +11,11 @@ Blog.findAll = () => {
 };
 
 Blog.findById = (id) => {
-  return db.oneOrNone(`SELECT * FROM blog WHERE id = $1`, id);
+  return db.oneOrNone(`SELECT * FROM blog JOIN users ON blog.user_id = users.id WHERE blog.id = $1`, id);
 }
 
 Blog.findByUserId = (id) => {
-  return db.one(`Select * FROM blog WHERE user_id = $1`, id);
+  return db.oneOrNone(`SELECT * FROM blog JOIN users ON blog.author_id = users.id WHERE blog.id = $1`, id);
 }
 
 // Blog.findById = (id) => {

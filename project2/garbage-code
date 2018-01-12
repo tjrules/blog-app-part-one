@@ -20,6 +20,23 @@ Blog.create = blog => {
   );
 }
 
+<select id="author_id" name="author_id">
+  <% authors.forEach(author => { %>
+    <option value="<%= author.id %>">
+      <%= author.name %>
+    </option>
+  <% }) %>
+</select>
+
+<label for="author_id">author</label>
+<select name="author_id" id="author_id">
+  <% authors.forEach(author => { %>
+ <option value="<%= author.id %>">
+   <%= author.name %>
+ </option>
+  <% }) %>
+</select>
+
 
 <select id="author_id" name="author_id">
   <% author.forEach(author => {%>

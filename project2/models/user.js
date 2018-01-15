@@ -23,6 +23,12 @@ User.create = user => {
     VALUES ($1, $2, $3)
     RETURNING *
     `, [user.username, user.email, user.password_digest]
+  ),
+  (
+    `INSERT INTO author
+    (user_id)
+    VALUES ($1)
+    RETURNING *`
   )
 };
 

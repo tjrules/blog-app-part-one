@@ -1,0 +1,14 @@
+<% include ../partials/head.ejs %>
+<% include ../partials/nav.ejs %>
+<h1>Edit author post</h1>
+
+
+<form action="<%= `/author/${author.id}?_method=PUT` %>" method="POST">
+  <label for="name">Name</label>
+  <input id="name" type="text" name="name" value="<%= author.name %>" />
+
+  <input type="submit" value="Save changes" />
+</form>
+
+<a href="<%= `/author/${author.id}` %>">Cancel</a>
+<% include ../partials/end.ejs %>

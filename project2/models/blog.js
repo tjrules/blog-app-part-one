@@ -1,5 +1,6 @@
 const db = require('../db/config');
-const Authors = require('../models/authors');
+const Author = require('../models/author');
+const Users = require('../models/user')
 const Blog = {};
 
 // Blog.findAll = () => {
@@ -11,12 +12,23 @@ Blog.findAll = () => {
 };
 
 Blog.findById = (id) => {
-  return db.oneOrNone(`SELECT * FROM blog WHERE id = $1`, id);
-}
+  return db.oneOrNone(
+    `SELECT * FROM blog
+    WHERE id = $1
+    `,
+    [id]
+  );
+};
 
-Blog.findByUserId = (id) => {
-  return db.one(`Select * FROM blog WHERE user_id = $1`, id);
-}
+// Blog.findByUserId = (id) => {
+//   return db.oneOrNone(
+//     `
+//     SELECT * FROM blog
+//     JOIN users ON blog.user_id = users.id
+//     WHERE blog.id = $1
+//
+//     `, [id]);
+// }
 
 // Blog.findById = (id) => {
 //   return db.oneOrNone(`SELECT * FROM blog where id = $1`, [id]);
@@ -40,10 +52,10 @@ Blog.create = blog => {
   return db.one(
     `
     INSERT INTO blog
-    (title, content, author_id, user_id)
-    Values ($1, $2, $3, $4) RETURNING *
+    (title, content, author_id)
+    Values ($1, $2, $3) RETURNING *
     `,
-    [blog.title, blog.content, blog.author_id, blog.user_id]
+    [blog.title, blog.content, blog.author_id]
   )
 }
 

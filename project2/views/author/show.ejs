@@ -1,0 +1,17 @@
+<% include ../partials/head.ejs %>
+<% include ../partials/nav.ejs %>
+
+<div class="container">
+  <div class="jumbotron">
+    <h1><%= author.name %></h1>
+
+  </div>
+  <h4>Written By: <%= author.name %> </h4>
+  <button class="btn"><a href="/author">Back</a></button>
+<button class='btn'>  <a href="<%= `/author/${author.id}/edit` %>">Edit</a> </button>
+  <form action="<%= `/author/${author.id}?_method=DELETE` %>" method="POST">
+    <input type="submit" value="Delete" />
+  </form>
+</div>
+
+<% include ../partials/end.ejs %>

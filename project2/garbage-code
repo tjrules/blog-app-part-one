@@ -8,7 +8,7 @@ Where id = $4
 [blog.title, blog.content, blog.author_id, id]
 );
 }
-
+  res.locals.myAuthor = data.data;
 Blog.create = blog => {
   return db.one(
     `
@@ -19,6 +19,23 @@ Blog.create = blog => {
     [blog.title, blog.content, blog.author_id]
   );
 }
+
+<select id="author_id" name="author_id">
+  <% authors.forEach(author => { %>
+    <option value="<%= author.id %>">
+      <%= author.name %>
+    </option>
+  <% }) %>
+</select>
+
+<label for="author_id">author</label>
+<select name="author_id" id="author_id">
+  <% authors.forEach(author => { %>
+ <option value="<%= author.id %>">
+   <%= author.name %>
+ </option>
+  <% }) %>
+</select>
 
 
 <select id="author_id" name="author_id">
@@ -105,3 +122,19 @@ Blog.create = blog => {
 <% }) %>
 </div>
 </div>
+<!-- <script type="text/javascript" src="./scripts/auth-script.js"></script> -->
+
+(`SELECT * FROM movies WHERE id = $1`, [id])
+(`SELECT * FROM blog JOIN users ON blog.user_id = users.id WHERE blog.id = $1`, id);
+
+
+<% news.forEach(thing => { %>
+<div class="row well table-hover">
+<div class="col-md-2"><a href="<%= thing.url %>"><img class="img-circle img-responsive" src="<%= thing.urlToImage %>" alt="thing.title" ></a></div>
+<div class="col-md-4"><%= thing.description %></div>
+</div>
+<% }) %>
+
+SELECT * FROM blog
+JOIN users ON blog.user_id = users.id
+WHERE blog.id = $1

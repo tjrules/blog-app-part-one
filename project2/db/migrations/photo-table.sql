@@ -1,0 +1,5 @@
+CREATE TABLE photo (
+  id BIGSERIAL PRIMARY KEY,
+  keyword VARCHAR(255) UNIQUE NOT NULL,
+  link TEXT
+);

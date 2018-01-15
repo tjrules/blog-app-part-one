@@ -13,14 +13,17 @@
   <input id="content" type="text" name="content" value="<%= blog.content %>" />
 
   <br />
-<label for="author_id">author</label>
-<select name="author_id" id="author_id">
-  <% authors.forEach(author => { %>
- <option value="<%= author.id %>">
-   <%= author.name %>
- </option>
-  <% }) %>
-</select>
+
+  <label for="author_id">author</label>
+   <select name="author_id" id="author_id">
+     <% author.forEach(author => { %>
+    <option
+      value="<%= author.id %>"
+      selected="<%= blog.author_id == author.id %>">
+      <%= `${author.name}` %>
+    </option>
+     <% }) %>
+   </select>
 
   <input type="submit" value="Save changes" />
 </form>

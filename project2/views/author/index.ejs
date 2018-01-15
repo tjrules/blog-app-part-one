@@ -1,0 +1,12 @@
+<% include ../partials/head.ejs %>
+<% include ../partials/nav.ejs %>
+<h1>authors</h1>
+
+<% author.forEach(author => { %>
+<div class="row well table-hover">
+<div class="col-md-2"><a href="<%= `/author/${author.id}` %>"><%= author.name %></a></div>
+
+</div>
+<% }) %>
+
+<% include ../partials/end.ejs %>

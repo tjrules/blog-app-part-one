@@ -1,8 +1,5 @@
 const db = require('../db/config');
-const Photo = require('../models/photos.js');
-const db = require('../db/config');
 const photo = {};
-// const API = require('./api-controller');
 
 photo.findAll = () => {
   return db.query('SELECT * FROM photo');
@@ -13,30 +10,31 @@ photo.findById = (id) => {
   `
   SELECT * FROM photo
   WHERE id = $1
-  `, [id]
+  `, id
   );
 };
 
-photo.update = (blog, id) => {
-  return db.one(
-    `
-    UPDATE photo SET
-    name = $1,
-    WHERE id = $2
-    RETURNING *
-    `,
-    [photo.name, id]
-  );
-};
+// photo.update = (blog, id) => {
+//   return db.one(
+//     `
+//     UPDATE photo SET
+//     keyword = $1,
+//     link = $2,
+//     WHERE id = $3
+//     RETURNING *
+//     `,
+//     [photo.keyword, photo.link, id]
+//   );
+// };
 
 photo.create = photo => {
   return db.one(
     `
     INSERT INTO photo
-    (name)
-    Values ($1) RETURNING *
+    (keyword, link)
+    Values ($1, $2) RETURNING *
     `,
-    [photo.name]
+    [photo.keyword, photo.link]
   );
 };
 
@@ -46,7 +44,7 @@ photo.destroy = id => {
     DELETE FROM photo
     WHERE id = $1
     `,
-    [id]
+    id
   );
 };
 

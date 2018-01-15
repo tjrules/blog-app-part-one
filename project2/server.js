@@ -55,6 +55,9 @@ app.use('/api', apiRouter);
 const authorRouter = require('./routes/author-routes');
 app.use('/author', authorRouter);
 
+const photoRouter = require('./routes/photo-routes');
+app.use('/photo', photoRouter);
+
 app.get('*', (req,res)=>{
   res.status(404).send('Hahahahaha I brought you to a dead end!');
 });

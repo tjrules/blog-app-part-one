@@ -1,0 +1,13 @@
+<% include ../partials/head.ejs %>
+<% include ../partials/nav.ejs %>
+<h1>Photos</h1>
+
+<% photo.forEach(photo => { %>
+<div class="row well table-hover">
+<div class="col-md-2"><a href="<%= `/photo/${photo.id}` %>"><%= photo.keyword %></a></div>
+<img src="<%= photo.link %>" alt="<%= photo.keyword %>">
+
+</div>
+<% }) %>
+
+<% include ../partials/end.ejs %>

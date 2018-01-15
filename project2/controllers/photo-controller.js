@@ -1,4 +1,4 @@
-const Photo = require('../models/photos.js');
+const Photo = require('../models/photo.js');
 const photoController = {};
 
 photoController.index = (req, res) => {
@@ -45,12 +45,13 @@ photoController.update = (req,res) => {
 };
 
 photoController.new = (req,res) => {
-  res.render('/photo/new');
+  res.render('photo/new');
 };
 
 photoController.create = (req,res)=> {
   Photo.create({
-    name: req.body.name
+    keyword: req.body.keyword,
+    link: req.body.link
   })
     .then(photo => {
   res.redirect(`/photo/${photo.id}`);

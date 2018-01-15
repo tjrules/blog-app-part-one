@@ -1,6 +1,5 @@
 const db = require('../db/config');
 const Author = {};
-// const API = require('./api-controller');
 
 Author.findAll = () => {
   return db.query('SELECT * FROM author');
@@ -43,7 +42,7 @@ Author.destroy = id => {
     DELETE FROM author
     WHERE id = $1
     `,
-    [id]
+    id
   );
 };
 

@@ -23,3 +23,8 @@ http://res.cloudinary.com/dftzmialt/image/upload/v1515437699/IMG_20180105_115151
 - views 3 hours working
 - styling/ 6 hours - still working
 - responsive 2 hours - pretty responsive so far
+
+
+* errors
+- SyntaxError: missing ) after argument list in /Users/tjstubbs/wdi/projects/project2/PROJECT-2-PROMPT/project2/views/blog/show.ejs while compiling ejs
+- Error: Failed to lookup view "/photo/new" in views directory "/Users/tjstubbs/wdi/projects/project2/PROJECT-2-PROMPT/project2/views"

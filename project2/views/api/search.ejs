@@ -1,2 +1,19 @@
 <% include ../partials/head.ejs %>
-<h1><%= data.title %></h1>
+<% include ../partials/nav.ejs %>
+
+
+<h1>Today's headlines</h1>
+<% data.forEach(news => { %>
+<div class="media">
+  <div class="media-left media-middle">
+    <img src="<%= news.urlToImage %>" class="media-object" style="width:100px">
+  </div>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="<%= news.url %>"><%= news.title %></a></h4>
+    <p><%= news.description %></p>
+  </div>
+</div>
+<% }); %>
+
+
+<% include ../partials/end.ejs %>

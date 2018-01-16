@@ -8,7 +8,7 @@ function loginRedirect(req, res, next) {
   if (req.user) return res.redirect('/');
   return next();
 }
-
+ 
 function loginRequired(req,res,next) {
   if (!req.user) return res.redirect('/blog');
   return next();

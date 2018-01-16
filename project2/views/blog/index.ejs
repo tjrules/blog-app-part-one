@@ -1,15 +1,23 @@
 <% include ../partials/head.ejs %>
-<% include ../partials/nav.ejs %>
-<div class="container-fluid ">
-  <h2>Today's Headlines</h2>
+  <% include ../partials/nav.ejs %>
+    <div class="container-fluid ">
+      <h2>Recent Posts</h2>
 
+      <div class="container">
+        <% blog.forEach(blog => { %>
+          <div class="media">
+            <div class="media-left media-top">
+              <img src="http://res.cloudinary.com/dftzmialt/image/upload/v1512161747/donut_vc5aky.png" class="media-object" style="width:60px">
+            </div>
 
-<% blog.forEach(blog => { %>
-<div class="row well table-hover">
-<div class="col-md-2"><a href="<%= `/blog/${blog.id}` %>"><%= blog.title %></a></div>
-<div class="col-md-4"><%= blog.content %></div>
-<div class="col-md-2">Written by: </div>
-</div>
-<% }) %>
-</div>
-<% include ../partials/end.ejs %>
+            <div class="media-body">
+              <h4 class="media-heading"><a href="<%= `/blog/${blog.id}` %>"> <%= blog.title %> </a></h4>
+              <p>
+                <%= blog.content %>
+              </p>
+            </div>
+          </div>
+          <% }) %>
+      </div>
+
+      <% include ../partials/end.ejs %>

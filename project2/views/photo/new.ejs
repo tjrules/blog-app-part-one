@@ -1,0 +1,23 @@
+<% include ../partials/head.ejs %>
+<% include ../partials/nav.ejs %>
+<h1>Add a new photo</h1>
+
+<form action="/photo" method="POST">
+  <label for="keyword"></label>
+  <input id="keyword" type="keyword" name="keyword" placeholder="enter keyword" />
+
+  <br />
+
+  <label for="link"></label>
+  <input id="link" type="link" name="link" placeholder="Enter url" />
+
+  <input type="submit" value="Create!" />
+</form>
+
+<a href="/photo">Cancel</a>
+
+
+
+
+
+<% include ../partials/end.ejs %>

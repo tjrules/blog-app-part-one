@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
 const passport = require('passport');
-const ejsLint = require('ejs-lint');
+
 
 require('dotenv').config();
 
@@ -39,7 +39,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname,'views'));
-// app.set(ejsLint(text, options));
+
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', (req,res) => {
@@ -54,6 +54,9 @@ app.use('/api', apiRouter);
 
 const authorRouter = require('./routes/author-routes');
 app.use('/author', authorRouter);
+
+const photoRouter = require('./routes/photo-routes');
+app.use('/photo', photoRouter);
 
 app.get('*', (req,res)=>{
   res.status(404).send('Hahahahaha I brought you to a dead end!');

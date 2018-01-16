@@ -1,5 +1,5 @@
-$(function() {
-
-  $('.dropdown-toggle').dropdown();
-
-});
+// $(function() {
+//
+//   $('.dropdown-toggle').dropdown();
+//
+// });

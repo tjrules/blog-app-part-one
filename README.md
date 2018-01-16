@@ -1,5 +1,8 @@
--Wireframe/Time Priority matrix image
+- Wireframe/Time Priority matrix image
 http://res.cloudinary.com/dftzmialt/image/upload/v1515437699/IMG_20180105_115151_bdflbr.jpg
+
+- presentation
+https://docs.google.com/presentation/d/1KV9fDk9CovdvVZpN0FkorowXEdL2ftBV5rJ9SmhpmiA/edit
 
 #MVP
 -crud functionality - 10 hours
@@ -18,12 +21,12 @@ http://res.cloudinary.com/dftzmialt/image/upload/v1515437699/IMG_20180105_115151
 - created file/folder structure-2 hours
 - api call - 6 hours/ working
 - crud functionality - 12 hours working
-- auth - 4 hours/ working
+- auth - 5 hours/ working
 - db - hours/2 working
 - views 3 hours working
 - styling/ 6 hours - still working
 - responsive 2 hours - pretty responsive so far
-
+- post MVP photo integration - 4 hours
 
 * errors
 - SyntaxError: missing ) after argument list in /Users/tjstubbs/wdi/projects/project2/PROJECT-2-PROMPT/project2/views/blog/show.ejs while compiling ejs

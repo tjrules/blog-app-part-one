@@ -40,10 +40,11 @@ Blog.update = (blog, id) => {
     UPDATE blog SET
     title = $1,
     content = $2,
-    author_id = $3
-    WHERE id = $4
+    author_id = $3,
+    photo_id = $4
+    WHERE id = $5
     `,
-    [blog.title, blog.content, blog.author_id, id]
+    [blog.title, blog.content, blog.author_id, blog.photo_id, id]
   );
 };
 
@@ -52,10 +53,10 @@ Blog.create = blog => {
   return db.one(
     `
     INSERT INTO blog
-    (title, content, author_id)
-    Values ($1, $2, $3) RETURNING *
+    (title, content, author_id, photo_id)
+    Values ($1, $2, $3, $4) RETURNING *
     `,
-    [blog.title, blog.content, blog.author_id]
+    [blog.title, blog.content, blog.author_id, blog.photo_id]
   )
 }
 

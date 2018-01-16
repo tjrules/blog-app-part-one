@@ -4,7 +4,7 @@ const passport = require('../services/auth/local');
 const authHelpers = require('../services/auth/auth-helpers');
 const usersController = require('../controllers/users-controller');
 const authorController = require('../controllers/author-controller');
-
+ 
 authRouter.get('/login', authHelpers.loginRedirect, (req, res) => {
   res.render('auth/login');
 });
@@ -25,7 +25,7 @@ authRouter.post('/login', passport.authenticate('local', {
 
 authRouter.get('/logout', (req, res) => {
   req.logout();
-  res.redirect('/');
+  res.redirect('../auth/login');
 });
 
 module.exports = authRouter;

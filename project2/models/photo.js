@@ -14,18 +14,18 @@ photo.findById = (id) => {
   );
 };
 
-// photo.update = (blog, id) => {
-//   return db.one(
-//     `
-//     UPDATE photo SET
-//     keyword = $1,
-//     link = $2,
-//     WHERE id = $3
-//     RETURNING *
-//     `,
-//     [photo.keyword, photo.link, id]
-//   );
-// };
+photo.update = (blog, id) => {
+  return db.none(
+    `
+    UPDATE photo SET
+    keyword = $1,
+    link = $2,
+    WHERE id = $3
+    RETURNING *
+    `,
+    [photo.keyword, photo.link, id]
+  );
+};
 
 photo.create = photo => {
   return db.one(

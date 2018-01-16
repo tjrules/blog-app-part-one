@@ -14,6 +14,19 @@
 
   <br />
 
+  <label for="photo_id">photo</label>
+   <select name="photo_id" id="photo_id">
+     <% photo.forEach(photo => { %>
+    <option
+      value="<%= photo.id %>"
+      selected="<%= blog.photo_id == photo.id %>">
+      <%= `${photo.keyword}` %>
+    </option>
+     <% }) %>
+   </select>
+
+  <br />
+
   <label for="author_id">author</label>
    <select name="author_id" id="author_id">
      <% author.forEach(author => { %>

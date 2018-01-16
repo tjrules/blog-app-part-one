@@ -2,10 +2,12 @@
 <% include ../partials/nav.ejs %>
 <h1>Photos</h1>
 
+<button class=""><a href="/photo/new">Add photos</a></button>
 <% photo.forEach(photo => { %>
-<div class="row well table-hover">
+<div class="row well table-hover text-center">
+
 <div class="col-md-2"><a href="<%= `/photo/${photo.id}` %>"><%= photo.keyword %></a></div>
-<img src="<%= photo.link %>" alt="<%= photo.keyword %>">
+<img src="<%= photo.link %>" alt="<%= photo.keyword %>" width="50%">
 
 </div>
 <% }) %>
